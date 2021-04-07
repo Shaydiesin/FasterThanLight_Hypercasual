@@ -35,12 +35,6 @@ public class EnemySpawn : MonoBehaviour
         player = GameObject.Find("player");       
     }
 
-    public void AdjustEnemyDensity(float ed)
-    {
-        InitialNumber = ed;
-        InterEnemyDistance = 5 * 10 / ed;
-    }
-
     private void Start()
     {
         for (int i = 0; i < InitialNumber; i++)

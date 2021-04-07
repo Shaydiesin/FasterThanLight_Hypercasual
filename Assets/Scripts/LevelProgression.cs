@@ -51,7 +51,7 @@ public class LevelProgression : MonoBehaviour
         timeCheck += Time.unscaledDeltaTime;
      
         // wait for some time and then remove level goal instruction
-        if (timeCheck > 4f)
+        if (timeCheck > 2f)
         {
             levelGoal.SetActive(false);
             panel.SetActive(false);

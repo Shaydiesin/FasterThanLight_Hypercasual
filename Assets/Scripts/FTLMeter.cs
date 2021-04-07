@@ -80,7 +80,7 @@ public class FTLMeter : MonoBehaviour
 
     public void AdjustSlowMo(float ts)
     {
-        SlowMoTimeScale = ts;
+        SlowMoTimeScale = 1/ts;
     }
 
 }
