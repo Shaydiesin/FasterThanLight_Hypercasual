@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7927189195233531167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7927189195233531165}
+  - component: {fileID: 7927189195233531166}
+  - component: {fileID: 2011743843}
+  m_Layer: 0
+  m_Name: Gun Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7927189195233531165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927189195233531167}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.6101351, y: -12.611553, z: -1.4670169}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7927189195233531166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927189195233531167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a0eae98032d4ee469b7cf0e1d9eab8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  glass: {fileID: 8356217493129169925, guid: a46c964043a4d57409944b6f9febc859, type: 3}
+  bottle: {fileID: 6306853174880099253, guid: 64fb6b7d30253a74e8b333bd1f462017, type: 3}
+  knife: {fileID: 7810909758352634889, guid: 23a7b073f1d14b64db81892b1b70d94c, type: 3}
+  pencil: {fileID: 3330797377465450156, guid: f700069a88168274587cf38910ae69c2, type: 3}
+  katana: {fileID: 4308648819653535817, guid: dc7bd4693e6ac864dac103ed016eff3b, type: 3}
+  bowl: {fileID: 9067999094496126886, guid: d28ef2a5fb9f442478589d14dd231751, type: 3}
+  rugby: {fileID: 7801991799249371352, guid: c5134cd981816b7429f995ca18b64a4d, type: 3}
+  torch: {fileID: 5090139138243073556, guid: 604fc17a5dbb08c45a41cb12e02ddf8a, type: 3}
+  donut: {fileID: 4384199042161990730, guid: ee23acb456fab0c418207daa1c354cd9, type: 3}
+  apple: {fileID: 4516283037739806107, guid: 19da9078ee39d5c40a77e0eff742dd50, type: 3}
+  hammer: {fileID: 2250011165595846491, guid: e4bad58d6e647c54ab1bc91688d0ea8f, type: 3}
+  ff: {fileID: 4000160830409724875, guid: 88a79a47681fdc64e903e14593ebbde2, type: 3}
+  boomberang: {fileID: 5271799275827604757, guid: e117e6c8f5195a241ab626dce53785a8,
+    type: 3}
+  weaponsPicked: []
+--- !u!65 &2011743843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927189195233531167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 0.05}
+  m_Center: {x: 0, y: 0, z: -3}
